@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Defibrillátor
 {
-    public partial class Form1 : Form
+    public partial class frmFo : Form
     {
-        public Form1()
+        public frmFo()
         {
             InitializeComponent();
         }
