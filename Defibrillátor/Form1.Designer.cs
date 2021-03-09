@@ -62,6 +62,7 @@
             this.tbX.Name = "tbX";
             this.tbX.Size = new System.Drawing.Size(129, 20);
             this.tbX.TabIndex = 2;
+            this.tbX.TextChanged += new System.EventHandler(this.tbX_TextChanged);
             // 
             // tbY
             // 
@@ -104,6 +105,7 @@
             this.btnKilep.TabIndex = 7;
             this.btnKilep.Text = "Kilépés";
             this.btnKilep.UseVisualStyleBackColor = true;
+            this.btnKilep.Click += new System.EventHandler(this.btnKilep_Click);
             // 
             // frmFo
             // 

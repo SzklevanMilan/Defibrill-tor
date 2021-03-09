@@ -21,32 +21,39 @@ namespace Defibrillátor
         {
             get { return name; }
         }
-        private int latitude;
+        private double latitude;
 
-        public int Latitude
+        public double Latitude
         {
             get { return latitude; }
         }
-        private int longitude;
+        private double longitude;
 
-        public int Longitude
+        public double Longitude
         {
             get { return longitude; }
         }
-        private int tel;
+        private string tel;
 
-        public int Tel
+        public string Tel
         {
             get { return tel; }
         }
-        private int address;
+        private string address;
 
-        public int Address
+        public string Address
         {
             get { return address; }
         }
+        private double dist;
 
-        public Keszülek(int id, string name, int latitude, int longitude, int tel, int address)
+        public double Dist
+        {
+            get { return dist; }
+        }
+
+
+        public Keszülek(int id, string name, double latitude, double longitude, string tel, string address)
         {
             this.id = id;
             this.name = name;
@@ -54,6 +61,10 @@ namespace Defibrillátor
             this.longitude = longitude;
             this.tel = tel;
             this.address = address;
+        }
+        private void DistCalc(double x,double  y)
+        {
+            
         }
     }
 }
